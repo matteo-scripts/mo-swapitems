@@ -46,5 +46,16 @@ The script automatically listens for item usage events and performs the swapping
 
 If configured, using an item like `tiramisu` or `pizza_diavola` will result in the player receiving a `dirty_plate` item.
 
+## ITEMS
+
+	['tiramisu'] = {
+		label = 'Tiramisu',
+		weight = 100,
+		close = false,
+		client = {
+		usetime = 2500, -- u need to have this in ur item that will be replaced
+		},
+	},
+
 
 
