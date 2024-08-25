@@ -21,7 +21,3 @@ ui_page 'html/index.html'
 files {
     'config/*',
 }
-
-escrow_ignore {
-    'config/*',
-}
